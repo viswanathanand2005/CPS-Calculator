@@ -59,8 +59,5 @@ function startTimer() {
             finalScore.innerText = `Final Score: ${(count / timeLimit).toFixed(2)}`;
 
         }
-        setTimeout(() => {
-            window.location.href = 'index.html'
-        }, 15000)
     }, 1000);
 }
